@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+    <meta charset="UTF-8">
+    <title>Gorditas Mexicana | HTML-Only Page Structure | Meyli Roque Martinez</title>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+        body {
+            background-color: #20448C; /* Dark blue background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0;
+            color: #FFD340; /* Yellow text */
+            font-family: 'Roboto Slab', serif;
+        }
+
+        /* Top and Footer Banner */
+        .banner {
+            width: 100%;
+            background-color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        .banner img {
+            max-width: 250px;
+            height: auto;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .big-box {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 30px;
+            background-color: #086CB4; /* Medium blue */
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+            color: #FFD340; /* Yellow text */
+            font-weight: bold;
+        }
+
+        .header-box {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #008CDB; /* Lighter blue */
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+            color: #FFD340; /* Yellow text */
+        }
+
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .rounded-image {
+            border-radius: 15px;
+            border: 3px solid #FFD340; /* Yellow border */
+            padding: 5px;
+            display: block;
+            margin: auto;
+            max-width: 100%;
+            height: auto;
+        }
+
+        p {
+            font-size: 1.2em;
+            font-weight: bold;
+            max-width: 90%;
+            text-align: center;
+            line-height: 1.5;
+        }
+
+        ul {
+            text-align: left;
+            padding: 0;
+            margin: 10px 0;
+            list-style-type: square;
+        }
+
+        ul li {
+            margin: 5px 0;
+        }
+
+        /* Footer Banner */
+        .footer-banner {
+            width: 100%;
+            background-color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+            color: #20448C; /* Dark Blue Text */
+            font-size: 1em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <img src="Route.webp" alt="Route 21 Banner">
+    </div>
+
+	<wrapper>
+	<div class="container">
+	    <header class="header-box">
+	        <h1>Gorditas Mexicana</h1>
+		    <p>On today's stop on Route 21, we have Carne Asada Gorditas from Mexico! These delicious snacks will have you craving for more!</p>
+	    </header>
+	    
+	    <div class="logo">
+	        <img src="gorditasmexican.webp" alt="Gorditas Image" class="rounded-image">
+	    </div>
+	    
+	    <div class="big-box">
+	        <h2>Delicious Carne Asada Gorditas</h2>
+	    </div>
+
+	    <main>
+	        <section class="big-box">
+			    <h3>Ingredients for the Gordita</h3>
+			    <ul>
+			        <li>Maseca (corn flour)</li>
+			        <li>Baking powder</li>
+			        <li>Salt</li>
+			        <li>Warm water</li>
+			        <li>Skirt steak</li>
+			        <li>Garlic/Salt paste</li>
+			        <li>Orange and Lime juice</li>
+			        <li>Neutral olive oil (not extra virgin)</li>
+			        <li>White vinegar</li>
+			        <li>Spices: pepper, cumin, chili powder, Mexican oregano, onion powder</li>
+			        <li>Seasonings: onion, cilantro, and jalapeño</li>
+			    </ul>
+	        </section>
+
+	        <section class="big-box">
+	            <h3>Cooking Steps</h3>
+	            <p>When it comes to making carne asada gorditas, the process is quite simple!</p>
+			    <ul>
+			        <li>Roast garlic cloves until soft, then grind them into a paste.</li>
+			        <li>Add cilantro, lime juice, orange juice, vinegar, olive oil, and spices. Mix well.</li>
+			        <li>Marinate the skirt steak in the mixture for 2-4 hours in the fridge.</li>
+			        <li>Prepare guacamole and set aside, sealing with plastic wrap to prevent oxidation.</li>
+			        <li>Mix maseca with warm water until dough is soft.</li>
+			        <li>Divide dough into 8 pieces, stuff with cheese, form balls, then flatten.</li>
+			        <li>Grill the carne asada or cook it in a cast iron skillet with onions and jalapeños.</li>
+			        <li>Chop carne asada into small chunks and add lime juice.</li>
+			        <li>Fry the gorditas at 325°F until golden brown.</li>
+			        <li>Cut the gorditas halfway open and stuff them with guacamole, queso fresco, lettuce, carne asada, crema, and salsa.</li>
+			        <li>Enjoy!</li>
+			    </ul>
+	        </section>
+	    </main>
+	</div>
+	</wrapper>
+
+    <div class="footer-banner">
+        <p>&copy; 2025, Meyli Roque Martinez.</p>
+        <p>This is a fictitious web page created solely for education and training purposes. All products and people associated with this page are fictitious. Any resemblance to real brands, products, or people is purely coincidental.</p>
+    </div>
+</body>
+</html>
